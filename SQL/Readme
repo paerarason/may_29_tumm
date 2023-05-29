@@ -1,0 +1,14 @@
+1. Create query for result
+    SELECT routes.id AS route_id,name,SUM(route_points.distance) AS total_distance.
+    FROM routes
+    JOIN route_points ON routers.id = route_points.route_id
+    GROUP BY routes.route_id, routes.name;
+
+
+3. Make a query for result by station_id and slot
+
+   SELECT station.name AS station_name,times.slot,times.time,station.id AS station_id
+   FROM station 
+   FULL OUTER JOIN times 
+   ON station.id == times.station_id
+   ORDER BY times.time ASC;

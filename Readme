@@ -1,0 +1,34 @@
+logical1:
+
+    Write a program that prompts the user to enter a credit card number as a long integer
+    and Display whether that card is valid or invalid.Credit card numbers follow certain
+    patterns.
+
+logical2:
+
+    WAP to count the total votes and print the output in the form of a dictionary where
+    the key is the candidate name and value is the total number of votes in the order
+    of maximum votes
+
+restAPI
+
+    1. WAP using FastAPI web framework using either MongoDb or any SQL
+    • Create API to print “Hello World”
+        endpoint - /school/hello
+   
+    • Create API for a School to perform CRUD operations for teachers or students
+    or both. (School is the Database and teachers and students are 2 different tables)
+    • Create API to assign students to a particular teacher
+
+    2. WAP using FastAPI web framework using either MongoDb or any SQL
+    • Create User and login.
+    • Create login user with authentication
+    • Create login user with authentication and session timeout
+
+Integrated 1,2  app with school ADMIN login, authentication,session timeout, and  STUDENT,TEACHER,crud 
+
+    3.WAP using FastAPI web framework
+    • Create api to take two latitude and longitude and give distance between them
+    using distance formula [d=√((x – x )² + (y – y )²)]
+
+       endpoint-/distance/
